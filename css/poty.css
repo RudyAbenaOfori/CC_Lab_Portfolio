@@ -6,15 +6,17 @@
   font-family: "OpenSansCondensed";
   src: url("../fonts/OpenSansCondensed-Bold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("../fonts/Gotham-Black.otf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Abel;
 }
-/* body {
-  overflow-x: hidden;
-} */
+
 footer {
   background: #050505;
   color: #ffffff;
@@ -25,20 +27,13 @@ footer a {
 }
 header {
   background-color: #000000;
-  /* border-bottom: 1px solid #fafafa; */
 }
-/* .head-bar {
-  border-bottom: 0.2px solid #dbdbdb;
-} */
+
 header.active,
 header.sticky {
   position: fixed;
-  /* background: rgba(36, 37, 105, 0.8); */
-  background: #0d0c0c;
-  /* padding: 50px 100px; */
+  background: #1a1a1a;
   align-items: center;
-  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
-  /* backdrop-filter: blur(15px); */
 }
 .toggle {
   position: relative;
@@ -144,13 +139,10 @@ header.sticky {
   visibility: hidden;
   top: 100%;
   right: 0;
-  opacity: 0;
-  /* transform: translateY(-3em); */
+  opacity: 0;  
   z-index: -1;
-  background: #121111;
-  /* transition: all 3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
+  background: #272727;
   margin-top: 0px;
-  /* margin-left: -250px; */
   height: 0;
   transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out, top 0.15s ease-in-out;
   overflow: hidden;
@@ -269,7 +261,8 @@ header.sticky {
   background-color: #fafafa;
 }
 .hero {
-  background: url("../images/Slide 16_9 - 8.png");
+  /* background: url("../images/Slide 16_9 - 8.png"); */
+  background: #111111;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -279,14 +272,22 @@ header.sticky {
   background-color: #efefef;
 }
 .hero h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gotham-Black", sans-serif;
   color: #fb0000;
+}
+.hero h2 {
+  font-family: "Gotham-Black", sans-serif;
 }
 .hero a {
   /* margin-left: 194px; */
-  font-family: OpenSansCondensed-Bold;
+  font-family: "Gotham-Black", sans-serif;
   background: #FB0000;
 }
+.second{
+  background: url("../images/bg_black.png");
+}
+
+
 .w-30 {
   width: 114px;
 }
