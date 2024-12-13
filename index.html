@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rudy's Portfolio</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="https://lendit.org/assets/images/logo-icon.png"> -->
+
     <link rel="shortcut icon" type="image/x-icon" href="images/r_o_logo.svg" />
     <link rel="stylesheet" href="css/my-web-style.css" />
     <link rel="stylesheet" type="text/css" href="css/poty.css" />
@@ -13,10 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
   </head>
 
   <body>
@@ -264,467 +264,184 @@
 
     <section class="hero block w-full home pt-24">
       <div class="flex flex-wrap justify-between items-center">
-        <div class="lg:w-1/2 md:w-2/4 w-full block"><img class="w-full" src="images/NY_L.png" /></div>
-        <div class="lg:w-3/6 md:w-2/4 w-full pt-10 pb-10 lg:pt-0 lg:pb-0">
-          <h1 class="lg:text-2xl md:text-7xl text-6xl px-12 md:pl-14 lg:pl-44 lg:ml-2 font-semibold">Hello, I'm Rudy</h1>
-          <h2 class="lg:text-6xl md:text-7xl text-6xl px-5 lg:pl-44 font-semibold lg:ml-2 text-gray-100">Product Designer</h2>
+        <div class="lg:w-1/2 md:w-2/4 w-full block md:block hidden"><img class="w-full" src="images/NY_L.png" /></div>
+        <div class="lg:w-3/6 md:w-2/4 w-full pt-16 md:pb-0 pb-0 lg:pt-0 lg:pb-0">
+          <h1 class="ml-16 lg:text-2xl md:text-2xl text-2xl px-10 md:pl-10 lg:pl-44 lg:ml-2 font-semibold">Hello, I'm Rudy</h1>
+          <h2 class="ml-20 lg:text-6xl md:text-5xl text-5xl px-5 lg:pl-44 font-semibold lg:ml-2 text-gray-100">Designer and Student at Parsons</h2>
           <p class="ml-16 lg:ml-32 py-4 px-10 lg:px-14 lg:pr-24 text-gray-200 max-w-3xl pb-16 text-base md:text-lg lg:text-xl">
-            As UI/UX designer based in New York with experience in delivering end-to-end UI/UX design for software products. I am passionate about design and excited to make each project I take up, a
-            unique experience suited to your need. I love to improve the lives of people and to make the world a better place. Its even more exhilirating to do that through design.
+            I am passionate about design and excited to make each project I take up, a unique experience suited to your need. I love to improve the lives of people and to make the world a better
+            place. Its even more exhilirating to do that through design.
           </p>
-          <div class="ml-2 lg:ml-0 pb-24">
-            <a class="py-4 ml-24 md:ml-20 lg:ml-48 px-8 text-gray-100 text-base md:text-lg lg:text-xl" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+          <div class="ml-2 lg:ml-0 md:pb-0">
+            <a class="py-4 ml-24 md:ml-24 lg:ml-48 px-8 text-gray-100 text-base md:text-lg lg:text-xl" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
               >C O N T A C T &nbsp; M E</a
             >
           </div>
         </div>
 
-        <!-- <div class="lg:w-2/6 md:w-2/4 w-full md:hidden block"><img class="w-full" src="images/mee2.png" /></div> -->
+        <div class="lg:w-2/6 md:w-2/4 w-full md:hidden block"><img class="w-full" src="images/NY_L.png" /></div>
       </div>
     </section>
-    <section class="second block w-full home pt-24">
-      <div class="flex flex-wrap justify-between items-center"></div>
-    </section>
-    <!-- <section class="portfolio block w-full pt-24 px-14 pb-14">
-    <h1 class="text-gray-500 lg:text-4xl md:text-3xl text-2xl mb-14 uppercase">U I / U X &nbsp; &nbsp; P R O J E C T S</h1>
-    <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-7">
-        <div class="grid grid-cols-1 gap-7">
-            <a href="/plantrite.html">
-                <div class="cards"><img src="images/test1.png " class="w-full"></div>
-            </a>
-            <a href="/agromart_casestudy.html">
-                <div class="cards"><img src="images/agromart-new1.png" class="w-full"></div>
-            </a>
-            <a href="/branding.html">
-                <div class="cards"><img src="images/ikor-new.svg" class="w-full"></div>
-            </a> -->
-    <!-- </div>
-        <div class="grid grid-cols-1 gap-7">
-            <a href="/cropchain_casestudy.html">
-                <div class="cards"><img src="images/new-cropchain.svg" class="w-full"></div>
-            </a>
-            <a href="/lendit_casestudy.html">
-                <div class="cards"><img src="images/lendit-new2.png" class="w-full"></div>
-            </a> -->
-    <!-- <a href="/poster.html">
-                <div class="cards row-span-2"><img src="images/marteki-M-new.svg " class="w-full"></div>
-            </a> -->
-    <!-- </div>
-    </div> -->
-    <!-- <div class="w-full grid md:grid-cols-2 grid-cols-1 gap-7">
-        <div class="grid grid-cols-1 md:hidden lg:grid gap-7">
-
-            <a href="/documents.html">
-                <div class="cards"><img src="images/doc-new.png " class="w-full"></div>
-            </a>
-            <a href="/agrocenta.html">
-                <div class="cards"><img src="images/new-agr.svg " class="w-full"></div>
-            </a>
-        </div>
-        <div class="cards grid grid-cols-1 hidden md:grid lg:hidden gap-7">
-            <a href="/cropchain_casestudy.html">
-                <div class="cards lg:hidden md:block"><img src="images/new-cropchain.svg" class="w-full"></div>
-            </a>
-            <a href="/documents.html">
-                <div class="cards lg:hidden md:block"><img src="images/doc-new.png" class="w-full"></div>
-            </a>
-        </div>
-        <a href="/agrocenta.html">
-            <div class="cards hidden md:block lg:hidden"><img src="images/agr-new.svg" class="w-full"></div>
-        </a>
-
-    </div> 
-
-</section>-->
-
-    <section class="projects block w-full pt-24 px-14 pb-14">
-      <h1 class="text-gray-500 lg:text-5xl md:text-4xl text-3xl mb-14 uppercase">P R O J E C T S</h1>
-      <div class="w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
-        <div class="grid grid-cols-1 gap-7">
-          <a href="/plantrite.html">
-            <div class="card">
-              <!-- <img src="images/PLANT2.png" alt="Avatar" class="image" /> -->
-              <img src="images/plantR.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">A design of an app that aids and keeps record of smallholder farmer activities from planting through to harvesting</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/agromart_casestudy.html">
-            <div class="card">
-              <!-- <img src="images/AGRM2.png" alt="Avatar" class="image" /> -->
-              <img src="images/agrm.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">A G R O M A R T</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">A redesign for a crop trading website</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/branding.html">
-            <div class="card">
-              <!-- <img src="images/IKOR2.png" alt="Avatar" class="image" /> -->
-              <img src="images/ikor.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">I K O R</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">Branding for a haulage company</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="grid grid-cols-1 gap-7">
-          <a href="/lendit_casestudy.html">
-            <div class="card">
-              <!-- <img src="images/LEND2.png" alt="Avatar" class="image" /> -->
-              <img src="images/lendit.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">L E N D I T</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">A redesign for a fintech app website</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/poster.html">
-            <div class="card">
-              <!-- <img src="images/POS2.png" alt="Avatar" class="image" /> -->
-              <img src="images/pos.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">P&nbsp;O&nbsp;S&nbsp;T&nbsp;E&nbsp;R &nbsp; D&nbsp;E&nbsp;S&nbsp;I&nbsp;G&nbsp;N</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">Gaphic design project for different posters</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="grid grid-cols-1 md:hidden lg:grid gap-7">
-          <a href="/cropchain_casestudy.html">
-            <div class="card">
-              <!-- <img src="images/CROPC2.png" alt="Avatar" class="image" /> -->
-              <img src="images/cropchain.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">C R O P C H A I N</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">A redesign of a central app for all agricultural business activities</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/documents.html">
-            <div class="card">
-              <!-- <img src="images/DOCD2.png" alt="Avatar" class="image" /> -->
-              <img src="images/docd.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">D&nbsp;O&nbsp;C&nbsp;U&nbsp;M&nbsp;E&nbsp;N&nbsp;T &nbsp; D&nbsp;E&nbsp;S&nbsp;I&nbsp;G&nbsp;N</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">Graphic design project for different documents</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/agrocenta.html">
-            <div class="card">
-              <!-- <img src="images/AGRF2.png" alt="Avatar" class="image" /> -->
-              <img src="images/agrocenta.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-500 md:text-lg text-base uppercase font-semibold text-center">A G R O C E N T A</h1>
-                  <h2 class="text-gray-500 text-xs italic text-center pt-3">Frontend development for a business website</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="cards grid grid-cols-1 hidden md:grid lg:hidden gap-7">
-          <a href="/cropchain_casestudy.html">
-            <div class="card">
-              <!-- <img src="images/CROPC2.png" alt="Avatar" class="image" /> -->
-              <img src="images/cropchain.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">C R O P C H A I N</h1>
-                  <h2 class="text-gray-800 text-xs italic text-center pt-3">A redesign of a central app for all agricultural business activities</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/documents.html">
-            <div class="card">
-              <!-- <img src="images/DOCD2.png" alt="Avatar" class="image" /> -->
-              <img src="images/docd.png" alt="Avatar" class="image" />
-              <div class="overlay">
-                <div class="text pt-5">
-                  <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">D&nbsp;O&nbsp;C&nbsp;U&nbsp;M&nbsp;E&nbsp;N&nbsp;T &nbsp; D&nbsp;E&nbsp;S&nbsp;I&nbsp;G&nbsp;N</h1>
-                  <h2 class="text-gray-800 text-xs italic text-center pt-3">Graphic design project for different documents</h2>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <a href="/agrocenta.html">
-          <div class="card hidden md:block lg:hidden">
-            <!-- <img src="images/AGRF2.png" alt="Avatar" class="image" /> -->
-            <img src="images/agrocenta.png" alt="Avatar" class="image" />
-            <div class="overlay">
-              <div class="text pt-5">
-                <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">A G R O C E N T A</h1>
-                <h2 class="text-gray-800 text-xs italic text-center pt-3">Frontend development for a business website</h2>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- <section class="portfolio block w-full pt-24 px-14 pb-14">
-    <h1 class="text-gray-500 lg:text-5xl md:text-4xl text-3xl mb-14 uppercase">P R O J E C T S</h1>
-    <div class="w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
-        <div class="grid grid-cols-1 gap-7">
-            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-            <a href="/plantrite.html"> -->
-
-    <!-- <div class="cards card1"><img src="images/test1.png" class="w-full">
-                    <div class="glass flex justify-center items-center">
-                        <div class="glass-text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">M A R K E T I N G &nbsp; F L Y E R </h1>
-                            <h2 class="text-gray-600 text-xs italic text-center pt-3 px-5">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div> -->
-    <!-- <div class="card">
-                    <img src="images/test1.png" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-600 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-
-            </a>
-            <a href="/agromart_casestudy.html">
-                <div class="card">
-                    <img src="images/agromart-new1.png" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="/cropchain_casestudy.html">
-                <div class="card">
-                    <img src="images/new-cropchain.svg" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="/lendit_casestudy.html">
-                <div class="card">
-                    <img src="images/lendit-new2.png" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-100 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-100 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-        <div class="grid grid-cols-1 gap-7">
-            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-            <a href="/branding.html">
-                <div class="card">
-                    <img src="images/ikor-new.svg" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a href="/poster.html">
-                <div class="card">
-                    <img src="images/marteki-M-new.svg" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-100 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-100 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="/documents.html">
-                <div class="card">
-                    <img src="images/doc-new.png" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid grid-cols-1 md:hidden lg:grid gap-7">
-            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-            <a href="/agrocenta.html">
-                <div class="card">
-                    <img src="images/agroc_new.png" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="cards grid grid-cols-1 hidden md:grid lg:hidden gap-7">
-            <a href="/cropchain_casestudy.html">
-                <div class="card">
-                    <img src="images/new-cropchain.svg" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="/documents.html">
-                <div class="card">
-                    <img src="images/doc-new.png" alt="Avatar" class="image">
-                    <div class="overlay ">
-                        <div class="text">
-                            <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                            <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <a href="/agrocenta.html">
-            <div class="card hidden md:block lg:hidden">
-                <img src="images/agroc_new.png" alt="Avatar" class="image">
-                <div class="overlay ">
-                    <div class="text">
-                        <h1 class="text-gray-600 md:text-lg text-base uppercase font-semibold text-center">P L A N T R I T E </h1>
-                        <h2 class=" text-gray-800 text-xs italic text-center pt-3">An app that aids and keeps record of smallholder farmer activities from planting through to harvesting. - AgroCenta Holdings - Ghana</h2>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-    </div>
-
-</section> -->
-
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    $(document).on("mouseover", ".cards .glass", function() {
-        $(this).addClass("active");
-    });
-</script> -->
-
-    <footer class="flex flex-wrap items-center w-full bottom-0 text-gray-500">
-      <!--left side-->
-      <div class="w-2/6 md:w-60 lg:w-2/6 flex items-center"><img src="images/logoinvert.svg" /></div>
-
-      <!--right side-->
-      <div class="contact block w-4/6 md:w-4/6 lg:pt-20 -ml-14 md:-ml-0 lg:-ml-8">
-        <div class="">
-          <div class="flex justify-between items-center w-full md:w-3/4 lg:w-3/4 lg:mb-12 lg:px-10 pt-8 pb-0 mb-10">
-            <a
-              href="https://www.linkedin.com/in/rudy-ofori/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="footersocials inline-block md:px-2 text-base md:text-xl uppercase font-bold md:w-40 mb-5 md:mb-0 text-center mr-3"
-              >L i n k e d I n</a
-            >
-            <a
-              href="https://twitter.com/RudyOfori"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="footersocials inline-block md:px-2 text-base md:text-xl uppercase font-bold mb-5 md:mb-0 text-center mr-3"
-              >T w i t t e r</a
-            >
+    <section class="second block pt-24 pb-16">
+      <div class="flex flex-wrap justify-center items-center mx-10">
+        <div class="mb-12 gray mr-5 pt-10 pb-10">
+          <h2 class="lg:text-8xl md:text-2xl text-2xl pl-10 px-5 font-semibold text-red-100">20+</h2>
+          <h2 class="lg:text-2xl md:text-2xl text-2xl pl-10 px-5 font-semibold text-gray-100">UI Design</h2>
+          <p class="ml-2 lg:ml-2 py-4 px-8 text-gray-300 max-w-sm pb-5 text-base md:text-lg lg:text-xl">
+            Looking for a great UI experience? Send an email, Let's talk aout how we can get the best results for you.
+          </p>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 md:ml-0 lg:ml-2 px-8 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>C O N T A C T &nbsp; M E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
           </div>
         </div>
-        <div class="w-full">
-          <div class="block w-full md:w-3/4 lg:w-3/4">
-            <p class="block text-center md:px-5 text-base md:text-xl text-gray-300">To review an in-depth selection of my work or to discuss working together, please get in touch</p>
-            <div class="w-full flex justify-center">
-              <a class="inline-block py-12 px-2 font-bold uppercase text-center text-base md:text-xl w-36">c o n t a c t</a>
-            </div>
-            <div class="md:flex justify-between items-center w-full lg:mb-5 lg:px-10 pb-0 mb-5">
-              <div class="flex justify-center items-center w-full md:mb-0 mb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 md:mr-1 text-gray-100" viewBox="0 0 20 20" fill="currentColor">
-                  <path
-                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-                  />
-                </svg>
-                <p class="block text-center md:px-5 text-base md:text-xl text-gray-300">(+233)&nbsp;55&nbsp;454&nbsp;8121</p>
-              </div>
-              <div class="flex justify-center justify-items-center items-center w-full">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 md:mr-1 text-gray-100" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg>
-                <a href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"><p class="block text-center md:px-5 text-base md:text-xl text-gray-300">oforirudy@gmail.com</p></a>
-              </div>
-            </div>
-            <div class="md:flex justify-between items-center w-full lg:mb-20 lg:px-10 pb-0 mb-20">
-              <!-- <div class="flex justify-center items-center w-full md:mb-0 mb-2">
-                <div class="mr-4">
-                  <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M21.7222 0H1.27778C0.572081 0 0 0.572081 0 1.27778V21.7222C0 22.4279 0.572081 23 1.27778 23H21.7222C22.4279 23 23 22.4279 23 21.7222V1.27778C23 0.572081 22.4279 0 21.7222 0Z"
-                      fill="#1B2D3D"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M4.19673 8.89589H7.27074V18.7865H4.19673V8.89589ZM5.73421 3.97932C6.71714 3.97932 7.51576 4.77793 7.51576 5.76087C7.51576 6.74475 6.71714 7.54368 5.73421 7.54368C5.49733 7.54817 5.26194 7.50539 5.04179 7.41784C4.82164 7.33029 4.62115 7.19973 4.45204 7.0338C4.28293 6.86786 4.1486 6.66988 4.0569 6.45142C3.9652 6.23297 3.91797 5.99843 3.91797 5.7615C3.91797 5.52458 3.9652 5.29004 4.0569 5.07158C4.1486 4.85313 4.28293 4.65515 4.45204 4.48921C4.62115 4.32328 4.82164 4.19272 5.04179 4.10517C5.26194 4.01762 5.49733 3.97484 5.73421 3.97932ZM9.19891 8.89557H12.1474V10.2471H12.1883C12.5988 9.46962 13.6015 8.64992 15.0968 8.64992C18.2095 8.64992 18.7845 10.6985 18.7845 13.3617V18.7865H15.7124V13.9767C15.7124 12.8299 15.6913 11.3543 14.1152 11.3543C12.5157 11.3543 12.27 12.6037 12.27 13.8939V18.7865H9.19859V8.89589L9.19891 8.89557Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <a href="https://www.linkedin.com/in/rudy-ofori/" target="_blank" rel="noopener noreferrer"><p class="block text-center md:px-5 text-base md:text-xl text-gray-300">Rudy Ofori</p></a>
-              </div> -->
-              <!-- <div class="flex justify-center justify-items-center items-center w-full">
-                <div class="mr-2">
-                  <svg width="23" height="16" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10.6923 27C23.5226 27 30.5402 16.6113 30.5402 7.60263C30.5402 7.30755 30.5402 7.0137 30.5198 6.72128C31.8852 5.75619 33.0634 4.56143 34 3.1924C32.7268 3.74363 31.3763 4.10546 29.9932 4.26496C31.4495 3.41283 32.5395 2.07297 33.06 0.494232C31.6906 1.2884 30.1927 1.84811 28.6305 2.14902C25.9887 -0.596403 21.5698 -0.728957 18.7606 1.85292C16.9488 3.51805 16.1804 5.99912 16.7426 8.36687C11.1344 8.09181 5.90851 5.50291 2.36642 1.24372C0.514916 4.35873 1.4605 8.34399 4.52621 10.3444C3.4159 10.3122 2.33016 10.0195 1.36002 9.4911C1.36002 9.51919 1.36002 9.54833 1.36002 9.57747C1.36077 12.8228 3.70151 15.6178 6.95647 16.2605C5.92966 16.5341 4.85185 16.5744 3.80653 16.3775C4.72038 19.1548 7.33917 21.0573 10.3237 21.1119C7.85333 23.0092 4.80199 24.039 1.66035 24.036C1.10539 24.035 0.551184 24.0021 0 23.9375C3.18999 25.9382 6.90208 26.9993 10.6923 26.9945"
-                      fill="#DEDDE5"
-                    />
-                  </svg>
-                </div>
-                <a href="https://twitter.com/RudyOfori" target="_blank" rel="noopener noreferrer"><p class="block text-center md:px-5 text-base md:text-xl text-gray-300">@RudyOfori</p></a>
-              </div> -->
-            </div>
-            <p class="block text-center w-full text-sm md:text-xl text-gray-300 lg:mb-28 mb-10">© 2023 &nbsp; Portfolio by Rudy Ofori</p>
+        <div class="mb-12 redish mr-2 pt-10 pb-10 mr-5">
+          <h2 class="lg:text-8xl md:text-2xl text-2xl pl-10 px-5 font-semibold text-gray-100">10+</h2>
+          <h2 class="lg:text-2xl md:text-2xl text-2xl pl-10 px-5 font-semibold text-gray-100">Product Design</h2>
+          <p class="ml-2 lg:ml-2 py-4 px-8 text-gray-300 max-w-sm pb-5 text-base md:text-lg lg:text-xl">
+            Get your own unique product designed today! Let's make that vision come to fruition. Send an email, Now!
+          </p>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 md:ml-0 lg:ml-2 px-8 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>C O N T A C T &nbsp; M E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+        <div class="mb-12 gray pt-10 pb-10">
+          <h2 class="lg:text-8xl md:text-2xl text-2xl pl-10 px-5 font-semibold text-gray-100">20+</h2>
+          <h2 class="lg:text-2xl md:text-2xl text-2xl pl-10 px-5 font-semibold text-gray-100">Branding</h2>
+          <p class="ml-2 lg:ml-2 py-4 px-8 text-gray-300 max-w-sm pb-5 text-base md:text-lg lg:text-xl">
+            Do you want to talk branding? I've got 20+ exquisite branding jobs under my belt so hit me up and let's do this!
+          </p>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 md:ml-0 lg:ml-2 px-8 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>C O N T A C T &nbsp; M E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+    <section class="third block pt-24 pb-16">
+      <div class="block">
+        <h1 class="ml-16 lg:mb lg:text-4xl md:text-5xl text-5xl px-5 lg:pl-36 font-semibold lg:ml-24 text-gray-100">Featured Projects</h1>
+        <p class="ml-2 lg:ml-52 mb-10 py-4 px-8 text-gray-300 max-w-5xl pb-5 text-base md:text-lg lg:text-xl">
+          P5.js projects you probably never though of. Tis is a chance to get to know me beter through my projects! Start right here.
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center items-center w-full">
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10 mr-10 lg:mr-20">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Lost & Found</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Face Generator</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center items-center w-full">
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10 mr-10 lg:mr-20">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Experimental Clock</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Exquisite Corpse</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center items-center w-full">
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10 mr-10 lg:mr-20">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Optical Illusion</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Data Portrait</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+        <div class="md:w-2/6 w-full mb-12 gray py-10 px-10">
+          <div><img class="w-full" src="images/rainb_comb.png" /></div>
+          <h2 class="lg:text-3xl md:text-2xl text-2xl pt-10 font-semibold text-gray-100">Autobiographical Game</h2>
+          <div class="ml-2 lg:ml-0 flex justify-start items-center">
+            <a class="pt-4 text-red-100 text-base md:text-lg lg:text-lg" href="mailto:oforirudy@gmail.com" target="_blank" rel="noopener noreferrer"
+              ><span>S H O W &nbsp; M O R E</span>
+              <span class="arrow inline-block ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg> </span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer></footer>
+    <script src="sketch.js"></script>
     <script>
       function scrollToElement(element) {
         element = element || "html, body";

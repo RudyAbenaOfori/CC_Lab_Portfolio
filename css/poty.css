@@ -26,7 +26,7 @@ footer a {
   font-family: OpenSansCondensed;
 }
 header {
-  background-color: #000000;
+  background-color: #111111;
 }
 
 header.active,
@@ -275,7 +275,7 @@ header.sticky {
   font-family: "Gotham-Black", sans-serif;
   color: #fb0000;
 }
-.hero h2 {
+.hero h2, .second h2 {
   font-family: "Gotham-Black", sans-serif;
 }
 .hero a {
@@ -285,6 +285,31 @@ header.sticky {
 }
 .second{
   background: url("../images/bg_black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second a{
+  font-family: "Gotham-Black", sans-serif;
+  color: #FB0000;
+}
+.gray{
+  background-color: #1f1f1f;
+}
+.redish{
+  background-color: #FB0000;
+}
+.redish a{
+ color: #ffffff;
+}
+.third{
+  background-color: #111111;
+}
+.third h1{
+  font-family: "Gotham-Black", sans-serif;
+}
+.third a{
+  color: #FB0000; 
 }
 
 

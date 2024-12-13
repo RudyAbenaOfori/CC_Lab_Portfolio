@@ -1,0 +1,104 @@
+LOST AND FOUND ASSIGNMENT
+
+Name: Rudy Abena Ofori
+Partner: Diana Chalakova
+
+Diana's Description: 
+
+It is rectangular and light pink. If the rectangle is vertical, one of the lengths of the rectangle has symmetrical, repeating gaps that span from the side until the middle of the width. They exist from the top of the length to the bottom of the length. All corners in this object are curved and not sharp.
+
+Description of Lost Item
+My partner's description of her lost item was in English, and my task was to interpret that description into code that my computer could understand and, in turn, reproduce as an image. It made me feel like I had a superpower, as if I could speak a whole new language. I had become a machine-whisperer. It was quite intriguing. 
+
+My interpretation 
+In my mind's eye, I interpreted the object as a comb. As I studied the description, I found myself grappling with a dilemma: was this a comb with a handle or one without?
+The description mentioned long, parallel teeth, which immediately brought to mind the image of a comb. However, the lack of any mention of a grip or handle area made me question my initial assumption.
+
+I carefully re-read the description several times, paying close attention to the details provided. The emphasis on the uniform structure of the object, with no distinct sections described beyond the teeth themselves, was particularly telling. There was no mention of any part that could be interpreted as a handle or a different gripping area. Thus, I concluded that the object being described was indeed a comb, but one without a handle.
+
+
+Depiction of the image using code 
+function setup() {
+  //size of canvas
+  createCanvas(400, 400);
+  //setup for rotation and translation
+  angleMode(DEGREES)
+}
+
+function draw() {
+  background('#f7f7f7');
+  //makeshift gradient background
+  push()
+  noStroke();
+  blendMode(DARKEST)
+  fill('#FFFAD7');
+  rect(0, 0, 400, 60);
+  fill('#FFF3D0');
+  rect(0, 50, 400, 60);
+  fill('#FFEDC9');
+  rect(0, 100, 400, 60);
+  fill('#F2E0CD');
+  rect(0, 150, 400, 60);
+  fill('#E6D5D1');
+  rect(0, 200, 400, 60);
+  fill('#DACAD3');
+  rect(0, 250, 400, 60);
+   fill('#CFC0D6');
+  rect(0, 300, 400, 60);
+  fill('#C4B5D8');
+  rect(0, 350, 400, 60);
+  pop()
+
+  
+  push()
+  //base comb rectangle
+  fill('#F57B9E');
+  //no border
+  noStroke('');
+  //center position
+  translate(90,-49)
+  //slight tilt
+  rotate(-28)
+  //comb fingers (pink)
+  rect(-55, 199.5, 70, 131, 10);
+  noStroke();
+  rect(-19, 200, 35, 10, 4);
+  rect(-19, 220, 35, 10, 4);
+  rect(-19, 240, 35, 10, 4);
+  rect(-19, 260, 35, 10, 4);
+  rect(-19, 280, 35, 10, 4);
+  rect(-19, 300, 35, 10, 4);
+  rect(-19, 320, 35, 10, 4);
+  
+  push()
+  //comb gaps (blended)
+  noStroke();
+  //fill('#F7f7f7');
+  fill('#FFEDC9');
+  rect(-20, 210, 37, 10, 3);
+  fill('#F2E0CD');
+  rect(-20, 230, 37, 10, 3);
+  rect(-20, 250, 37, 10, 3);
+  rect(-20, 270, 37, 10, 3);
+  fill('#E6D5D1');
+  rect(-20, 290, 37, 10, 3);
+  rect(-20, 310, 37, 10, 3);
+  pop()
+  
+  pop()
+  
+  
+}
+
+
+The differences in interpretation at all stages of the assignment
+
+The first thing I did was color the 400 x 400 dimensioned background a light grey. Then, I created a rectangle. It took me a while to adjust the shape of the rectangle to suit a good sized comb, after which I applied rotation to give it a slight tilt, like it was ready to be used in combing.
+
+The next thing I had to tackle was the gaps. I initially wanted to place small rectangles colored the same as the background to give the illusion of a comb, but then it hit me - the description said all the corners were curved and not sharp. This meant my initial idea alone was not going to work. I had to think of a way to make the teeth and the gaps have curved corners.
+
+The 'great idea' I came up with was to install two sets of repeating rectangles - some for the teeth and some for the gaps. I made the gap rectangles slightly taller than the ones for the teeth to get rid of the base rectangle's border, then I gave it the color of the background. Then I colored the rectangles representing the teeth pink, same as the base rectangle.
+
+It felt like drawing a comb on a graphic design platform without the option to subtract. However, this time I was doing it through code. It felt like a workaround, but at least it looked good. It was also quite interesting. I literally didn't want to step away from my laptop to do anything. I loved the experience.
+
+To give the work a little sophistication, I copied the background from the image used in the Lost and Found assignment document. It kind of looks almost pretty now. I translated English to P5.js code. Cool.
