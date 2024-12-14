@@ -1,0 +1,22 @@
+Name: Rudy Abena Ofori
+Assignment: Experimental Clock
+Assignment Link: https://editor.p5js.org/RudyOfori/full/tC5dN2naW
+
+
+Brainstorming
+My ideas for this assignment were largely inspired by movies I had previously watched. I considered three concepts: "The Wheels of Our Time," "The Sands of Our Time," and "The Scales of Our Time." Each idea explored how time could be depicted visually.
+For "The Wheel of Time," I envisioned creating a wheel in P5.js that would rotate based on hours, minutes, or seconds. "The Scales of Time" concept involved measuring the progression or digression of time using a scale mapped to P5.js time functions. Ultimately, I chose "The Sands of Time" due to its practicality and my fondness for Arabian folklore featuring this concept.
+
+The Idea
+"The Sands of Time" concept aims to create a digital hourglass that measures time progression using P5.js mapping functions. This hourglass would depict the flow of time in seconds, minutes, and hours through a 2D animation simulating sand movement.
+
+The Process
+I began by experimenting with the sand motion in the hourglass, creating two circles whose radii were mapped to the seconds function in P5.js. One circle decreases in size over time, while the other increases, simulating sand flowing from one chamber to another.
+I then developed an animation to represent sand particles moving between these circles, creating the illusion of sand flowing through an hourglass.
+Once the basic motion was established, I focused on improving the aesthetics to make it resemble a 2D hourglass animation.
+My final challenge was implementing a feature to toggle between displaying time in seconds, minutes, and hours. I struggled with creating an object to trigger this function change, which is an area I plan to explore further.
+
+Findings and Discovery
+This digital hourglass offers a novel approach to timekeeping, as it can segment time into hours, minutes, and seconds, unlike traditional hourglasses that typically measure only hours.
+Through this assignment, I gained valuable insights into P5.js functionality and how to customize it for specific needs. However, I also encountered questions I'd like to explore further, such as creating a button without using the built-in 'createButton' P5.js function.
+This project has sparked my curiosity to delve deeper into P5.js capabilities and explore more creative ways to visualize time and interact with digital animations.

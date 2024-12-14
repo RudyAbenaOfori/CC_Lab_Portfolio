@@ -1,0 +1,16 @@
+Name: Rudy Abena Ofori
+Face Generator
+
+Reflections
+
+My process:
+I experimented extensively while working on this project. Almost everything I created was a product of numerous trials and errors, but I'm glad I went through them because I believe they have shaped my thinking and design process in many ways.
+
+Initial Sketches:
+I began by drawing a diagram of a 2D alien. It looked cute, and I was excited about coding it in P5.js, but I soon found out it was more complicated than I thought. The oblong-like shape of the alien's head was difficult to replicate. I tried using rectangles, quadrilaterals, triangles, circles, and ellipses, but I was unable to successfully create a satisfactory alien head shape. The rounded edges proved difficult to replicate, and working with curve vertices seemed like a whole project of its own, so I decided to go with the next best thing: babies! I created a new sketch of a 2D baby's face and hoped it would prove to be the better option - and it was! I mean, look at that cute face.
+
+Coding Process:
+The first thing I did was create the face of the baby. I started with the circular head, then added the eyes, the cheeks, and finally the mouth. I followed by experimenting with the technical components to generate different baby faces. This is where I added the random function, mouseX and mouseY variables, user variables, and the mousePressed syntax. These changed the shape, size, and colors of my baby's face using different interactions.
+
+What I discovered using the form I chose:
+Experimenting with different forms for the face generator gave me insight into which shapes were easy to replicate and which were not. The alien face I initially worked with was difficult to form due to complexities with curve vertices. The baby face, however, was easier to create through code. During the animation of the baby face, I also noticed that there was a limit to how much 'randomness' I could apply. The highlight of this particular face was in the circular shapes, and too much distortion tended to detract from that. When distorted too much, the face no longer looked like that of a baby.

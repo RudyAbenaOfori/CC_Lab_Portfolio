@@ -1,0 +1,22 @@
+Name: Rudy Ofori
+Partner's Names: Aisha Kazembe & Vasuki Sunder
+
+My p5 sketch
+<iframe src="https://editor.p5js.org/RudyOfori/full/32fS6jOUT"></iframe>
+
+My Design Process
+The exquisite corpse beauty I have here in my sketch is an amalgamation of beautiful, ancient and mythical creatures of the night born from my team members, Aisha and Vasuki, and myself.
+
+The sketch I presented was the corpse bride. As popularly known, the corpse bride, who was once one of the most beautiful maidens in her town, was brutally murdered on her wedding night and has since been waiting for her groom to appear.
+
+Aisha also presented a sketch of a moonflower man. The moonflower is the sunflower's twin. As the tale goes, the moonflower was born only seconds after the sunflower. Unfortunately, the moonflower isn't as famous as the sunflower as it is only vibrant in the night when everyone is asleep. However, the moonflower also enjoys watching the moon just like his twin enjoys watching the sun. On specific nights in the fall when the flower grows to its peak, it takes on a human-like form and while everyone sleeps, it goes to sit in the trees where it can enjoy the perfect view of the moon.
+
+Finally, Vasuki's sketch detailed the drawing of the Orion constellation. Most people have probably seen Orion in the sky. He's one of the brightest, largest, and most visible constellations, especially in the winter. Orion was a famous hunter in Greek mythology. One day Orion proclaimed that he would kill every beast on Earth. The Earth goddess Gaia didn't like this, and ordered a giant scorpion to kill him. Eventually, Zeus placed him amongst the stars, along with the scorpion that killed him (which is why we have the Scorpio zodiac sign).
+
+My process started by putting together a picture of the different parts of each other's sketches I had picked. Then I worked on creating these features using basic shapes in the P5.js editor. I ended up with a beautiful picture of a flower fairy I had not imagined I'd arrive at. It was very exciting creating it every step of the way.
+
+My new background story for this new sketch:
+On one of those very rare days when the night was awfully longer than usual, the corpse bride finally met her groom. He was a handsome moonflower man sitting within the trees watching the moon. He fell mistakenly after tripping on a branch and landed right in the arms of the corpse bride, who couldn't believe her eyes. The moonflower, on the other hand, had never seen anyone besides the trees, and thought she was as beautiful as the moon itself. They fell in love and eventually gave birth to this beautiful moonflower fairy under the Orion constellation. Orion, after seeing how beautiful this creature was, decided to gift her with a part of himself, the 'feet of stars' which can successfully bring a man's most desired wish to fruition. If you're lucky, you might meet her one day and she'll grant you a wish.
+
+My assignment reflections
+Working on this assignment was interesting. Although I knew the parts of my team's sketches I had to put together, I had no idea of knowing how it would actually turn out and it turned out to be very beautiful.

@@ -1,0 +1,15 @@
+Name: Rudy Ofori
+
+Project Description:
+My inspiration for creating this optical illusion was a childhood memory. I was a great fan of the Power Puff Girls cartoon series, and I wanted to recreate the hypnotizing loop effect. It's an unending loop of colored hearts that continuously draws you in.
+Process:
+
+It took me a while to figure out the logic for this optical illusion. My process started with researching and obtaining a gif of the sensational Power Puff Girls' hypnotizing loop. I finally settled on one I wanted to emulate.
+
+I initially tried mapping shapes to the time functions in P5.js; however, it didn't quite give me the results I wanted. I thought through the project repeatedly and tried different approaches, but it worked out eventually when I talked through the logic with a couple of friends and employed the logic from the class on arrays we had just had.
+
+It was honestly slightly tough to put everything together, but it eventually worked out well and was worth it. I will still work more on the aesthetic. I incorporated a code snippet from ronikaufman/sketches as well. It gave me great insight into using arrays for this project. Truly, code is meant to be reused and built upon to create greater things.
+
+
+How might my optical illusion get deployed in the world around:
+This optical illusion was an idea I got from a childhood cartoon that was a favorite of mine. Thus, it can be employed in many more animations, videos, gifs, etc., to drive home a point. In the Power Puff Girls animation, it was used as a tool for hypnotism. I believe in that same line of thought it could be used as a mental destressing tool for people. This was an interesting project to work on.
