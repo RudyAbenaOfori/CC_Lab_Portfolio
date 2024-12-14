@@ -1,6 +1,6 @@
 rad = 20;
 function preload() {
-  img = loadImage("/image 516.png");
+  img = loadImage("./image 516.png");
 }
 function setup() {
   createCanvas(400, 600);
