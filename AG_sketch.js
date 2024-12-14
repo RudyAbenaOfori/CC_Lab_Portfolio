@@ -46,33 +46,23 @@ dates = ["Sat, Oct 12, 2024", "Sun, Oct 13, 2024", "Mon, Oct 14, 2024", "Tue, Oc
 let Sat = ["2:18 PM", "2:21 PM", "2:44 PM", "2:49 PM", "2:55 PM", "2:55 PM", "3:01 PM", "3:54 PM", "2:49 PM", "2:55 PM", "2:55 PM", "3:01 PM", "3:54 PM", "4:17 PM", "4:17 PM", "10:49 PM"];
 let Tue = ["9:43 AM", "10:03 AM", "10:08 AM", "10:09 AM", "10:10 AM", "10:20 AM", "12:22 PM", "12:22 PM", "1:49 PM", "3:07 PM", "3:08 PM", "3:08 PM"];
 //Bubble colors
-let clr6 = 'rgba(120, 241, 243, 0.2)';
-let clr3 = 'rgba(6,162,157,0.5)';
+let clr6 = "rgba(120, 241, 243, 0.2)";
+let clr3 = "rgba(6,162,157,0.5)";
 let gameOver = false;
 let bubbles_all = [];
 let bublee;
-let bubbleColors = [
-  'rgba(120, 241, 243, 0.2)',
-  'rgba(181, 252, 243,0.6)',
-  'rgba(255, 126, 49, 0.5)',
-  'rgba(185, 148, 246, 0.3)',
-  'rgba(221, 232, 17, 0.2)'
-];
-
-
+let bubbleColors = ["rgba(120, 241, 243, 0.2)", "rgba(181, 252, 243,0.6)", "rgba(255, 126, 49, 0.5)", "rgba(185, 148, 246, 0.3)", "rgba(221, 232, 17, 0.2)"];
 
 function preload() {
   // Load images for both scenes
-  bg_img = loadImage('/assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_f2409b17-de24-493d-bf50-cddc7cb85538_0 1.png');
-  bg_img2 = loadImage('/assets/u3366585754_create_the_image_of_a_magical_whimsical_field_fil_75aae9d7-e6a5-4ae1-b030-39682b6f0d86_1.png');
-  instructor_img = loadImage('/assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_97d6bc18-c326-41b6-97d3-1696e0a6db61_0 1 (1).png');
-  pixeloid = loadFont('/assets/PixeloidMono.ttf');
-  bg_img3 = loadImage('/assets/u3366585754_Create_a_vibrant_2D_illustration_of_a_bright_sunn_0232d763-df5b-4961-8bf5-ec6f3e69d358_0.png');
-  coin_image = loadImage('/assets/ezgif.com-animated-gif-maker (2).gif');
-  char_img = loadImage('/assets/Ahaa.png')
+  bg_img = loadImage("/assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_f2409b17-de24-493d-bf50-cddc7cb85538_0 1.png");
+  bg_img2 = loadImage("/assets/u3366585754_create_the_image_of_a_magical_whimsical_field_fil_75aae9d7-e6a5-4ae1-b030-39682b6f0d86_1.png");
+  instructor_img = loadImage("/assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_97d6bc18-c326-41b6-97d3-1696e0a6db61_0 1 (1).png");
+  pixeloid = loadFont("/assets/PixeloidMono.ttf");
+  bg_img3 = loadImage("/assets/u3366585754_Create_a_vibrant_2D_illustration_of_a_bright_sunn_0232d763-df5b-4961-8bf5-ec6f3e69d358_0.png");
+  coin_image = loadImage("/assets/ezgif.com-animated-gif-maker (2).gif");
+  char_img = loadImage("/assets/Ahaa.png");
 }
-
-
 
 class bubbles {
   constructor(xPos, yPos, s, spd, clr) {
@@ -84,31 +74,31 @@ class bubbles {
     this.collided = false; // Initialize the collided property
   }
 
- draw_bubbles4() {
+  draw_bubbles4() {
     // Draw the bubble
     fill(this.color);
     push();
-    stroke('rgba(243,251,252,0.45)');
+    stroke("rgba(243,251,252,0.45)");
     strokeWeight(2);
     circle(this.x, this.y, this.size);
     pop();
 
     // Draw secondary bubble visuals
     push();
-    stroke('rgba(192,192,192,0.7)');
-    fill('rgba(169, 241, 243, 0.4)');
+    stroke("rgba(192,192,192,0.7)");
+    fill("rgba(169, 241, 243, 0.4)");
     circle(this.x + this.size / 20, this.y, this.size / 1.1);
     noStroke();
-    fill('rgba(249,248,248,0.4)');
+    fill("rgba(249,248,248,0.4)");
     ellipse(this.x + this.size / 13, this.y - this.size / 2.95, this.size / 2.5, this.size / 6);
-    fill('rgba(241,241,241,0.7)');
+    fill("rgba(241,241,241,0.7)");
     circle(this.x + this.size / 5, this.y - this.size / 2.8, this.size / 14);
     ellipse(this.x + this.size / 20, this.y - this.size / 2.7, this.size / 5, this.size / 20);
     pop();
 
     // Draw the text in the center of the bubble
     push();
-    fill('rgba(255,255,255,0.9)');
+    fill("rgba(255,255,255,0.9)");
     textSize(this.size / 8);
     textAlign(CENTER, CENTER); // Align text to the center of the bubble
     text(Tue[index4], this.x, this.y); // Position text at the bubble's center
@@ -130,7 +120,7 @@ class character {
   }
 
   draw_character() {
-    image(char_img, this.x, this.y - this.height+50, this.width, this.height);
+    image(char_img, this.x, this.y - this.height + 50, this.width, this.height);
   }
 }
 
@@ -149,19 +139,12 @@ class coin {
   }
 
   check_char_collision() {
-    if (
-      bublee.x < this.x + 1 * this.r &&
-      bublee.x + bublee.width > this.x - 1 * this.r &&
-      bublee.y - bublee.height < this.y + 1 * this.r &&
-      bublee.y > this.y - 1 * this.r
-    ) {
+    if (bublee.x < this.x + 1 * this.r && bublee.x + bublee.width > this.x - 1 * this.r && bublee.y - bublee.height < this.y + 1 * this.r && bublee.y > this.y - 1 * this.r) {
       if (this.state) score++;
       this.state = false; // Mark coin as collected
     }
   }
 }
-
-
 
 function setup() {
   createCanvas(800, 660);
@@ -182,18 +165,10 @@ function setup() {
     flower.push({
       x: random(width),
       y: random(height - 100, height - 160),
-      color: random([
-        color(255, 0, 0),
-        color(255, 165, 0),
-        color(255, 255, 0),
-        color(91, 159, 250),
-        color(255, 105, 180)
-      ])
+      color: random([color(255, 0, 0), color(255, 165, 0), color(255, 255, 0), color(91, 159, 250), color(255, 105, 180)]),
     });
   }
 }
-
-
 
 function draw() {
   background(220);
@@ -202,13 +177,10 @@ function draw() {
     drawScene1();
   } else if (scene === 2) {
     drawScene2();
-  }
-  else if (scene === 3) {
+  } else if (scene === 3) {
     drawScene3();
   }
 }
-
-
 
 function drawScene1() {
   let currentString = string.substring(0, currentCharacter);
@@ -219,9 +191,9 @@ function drawScene1() {
   // Draw textbox
   push();
   noStroke();
-  fill('rgba(19, 19, 21,0.7)');
+  fill("rgba(19, 19, 21,0.7)");
   rect(pageMargin, pageMargin * 2.7, width - pageMargin * 2, height - pageMargin * 3.5, 10);
-  fill('#F52014');
+  fill("#F52014");
   rect(pageMargin * 2, pageMargin * 3.8, width - pageMargin * 4, height - pageMargin * 4, 10);
   pop();
 
@@ -230,16 +202,14 @@ function drawScene1() {
   textSize(22);
   textFont(pixeloid);
   textAlign(CENTER, TOP);
-  fill('ffffff');
+  fill("ffffff");
   text(currentString, pageMargin + 10, pageMargin * 2.7 + 35, width - pageMargin * 2, height - pageMargin);
-  text('START', pageMargin * 2.7, pageMargin * 3.92);
+  text("START", pageMargin * 2.7, pageMargin * 3.92);
   pop();
 
   // Advance the typewriter effect
   currentCharacter += 0.1;
 }
-
-
 
 function drawScene2() {
   let currentString2 = string2.substring(0, currentCharacter2);
@@ -250,9 +220,9 @@ function drawScene2() {
   // Draw textbox and instructor image
   push();
   noStroke();
-  fill('rgba(19, 19, 21,0.7)');
+  fill("rgba(19, 19, 21,0.7)");
   rect(pageMargin / 4, pageMargin / 4, width - pageMargin / 2, height - pageMargin / 2.1, 10);
-  fill('#F52014');
+  fill("#F52014");
   rect(pageMargin * 1.75, pageMargin * 2.8, width - pageMargin * 4, height - pageMargin * 4, 10);
   image(instructor_img, pageMargin / 4 + 40, pageMargin / 4 + 40, 385, 300);
   pop();
@@ -262,16 +232,15 @@ function drawScene2() {
   textSize(16);
   textFont(pixeloid);
   textAlign(LEFT, TOP);
-  fill('ffffff');
+  fill("ffffff");
   text(currentString2, pageMargin * 3.3, pageMargin / 4 + 55, width - pageMargin * 3.8, height - pageMargin);
   textSize(24);
-  text('NEXT', pageMargin * 2.2, pageMargin * 2.93);
+  text("NEXT", pageMargin * 2.2, pageMargin * 2.93);
   pop();
 
   // Advance the typewriter effect
   currentCharacter2 += 0.3;
 }
-
 
 function drawScene3() {
   frameRate(10);
@@ -287,7 +256,7 @@ function drawScene3() {
     moveCharacter(); // Handle player movement
 
     Browsing_H_D4(); // Draw and animate the bubbles
-    checkCollision();  // Check for collisions each frame
+    checkCollision(); // Check for collisions each frame
 
     // Show and check collisions for coins
     for (let i = 0; i < no_of_coins; i++) {
@@ -297,10 +266,10 @@ function drawScene3() {
 
     // Display the player's score
     push();
-    fill('rgba(33, 35, 39,0.7)');
+    fill("rgba(33, 35, 39,0.7)");
     noStroke();
     rect(0, 70, 800, 50);
-    fill('rgb(255, 165, 0)'); // Orange text color
+    fill("rgb(255, 165, 0)"); // Orange text color
     textFont(pixeloid);
     textAlign(LEFT, CENTER); // Ensure consistent alignment
     textSize(16);
@@ -314,15 +283,13 @@ function drawScene3() {
 
   // Draw "Restart" Button
   push();
-  fill('rgba(255, 69, 0, 0.9)'); // Button background color
+  fill("rgba(255, 69, 0, 0.9)"); // Button background color
   rect(width - 150, 20, 120, 40, 10); // Position and size
-  fill('white');
+  fill("white");
   textSize(18);
   textAlign(CENTER, CENTER); // Center-align text for the button
   text("Restart", width - 90, 40); // Button label
   pop();
-
-  
 
   // Generate new obstacles at regular intervals
   if (obstacles.length < maxObstacles && frameCount % 70 === 0) {
@@ -340,7 +307,7 @@ function drawScene3() {
   if (moving) {
     for (let i = obstacles.length - 1; i >= 0; i--) {
       let obs = obstacles[i];
-      fill('rgba(6,246,16,0.6)');
+      fill("rgba(6,246,16,0.6)");
       rect(obs.x, obs.y, obs.width, obs.height);
       drawGreenRectanglesWithinObstacle(obs);
       obs.x -= obs.speed; // Move the obstacle left
@@ -354,7 +321,7 @@ function drawScene3() {
     }
   } else {
     for (let obs of obstacles) {
-      fill('rgba(6,246,16,0.6)');
+      fill("rgba(6,246,16,0.6)");
       rect(obs.x, obs.y, obs.width, obs.height);
       drawGreenRectanglesWithinObstacle(obs);
     }
@@ -370,8 +337,6 @@ function drawScene3() {
     checkDoorwayCollision(); // Check for collision with the doorway
   }
 }
-
-
 
 function mousePressed() {
   // Check if "START" button is clicked in Scene 1
@@ -395,8 +360,8 @@ function mousePressed() {
   ) {
     scene = 3; // Move to Scene 3
   }
-  
- // Check if "Restart" button is clicked in Scene 3
+
+  // Check if "Restart" button is clicked in Scene 3
   if (
     scene === 3 &&
     mouseX > width - 150 && // Left edge of the button
@@ -408,33 +373,31 @@ function mousePressed() {
   }
 }
 
-
 // Display remaining lives
 function displayLives() {
   push();
-  fill('rgba(33, 35, 39,0.7)'); // Background overlay for the text
+  fill("rgba(33, 35, 39,0.7)"); // Background overlay for the text
   noStroke();
   rect(0, 0, 800, 50); // Fixed position and size for the background bar
-  
-  fill('rgb(255, 69, 0)'); // Red text color
+
+  fill("rgb(255, 69, 0)"); // Red text color
   textFont(pixeloid); // Use the specified font
   textAlign(LEFT, CENTER); // Consistent alignment for the text
   textSize(20);
-  
+
   // Ensure remaining lives are displayed correctly
   let remainingLives = maxCollisions - collisionCount;
   remainingLives = remainingLives >= 0 ? remainingLives : 0; // Avoid negative values
-  
+
   text(`Lives Remaining: ${remainingLives}`, 50, 25); // Adjust vertical position for better centering
   pop();
 }
 
-
 function drawGreenRectanglesWithinObstacle(obs) {
   push();
-  stroke('rgba(5,5,5,0.8)');
-  fill('rgba(169,241,29,0.6)');
-  
+  stroke("rgba(5,5,5,0.8)");
+  fill("rgba(169,241,29,0.6)");
+
   for (let i = obs.x; i < obs.x + obs.width; i += r) {
     for (let j = obs.y; j < obs.y + obs.height; j += r) {
       let a = random(r / 1.5, r / 1.0);
@@ -472,13 +435,13 @@ function drawBackground() {
   // fill("#8dc63f");
 
   push();
-  stroke('rgba(80,80,80,0.8)');
-  fill('rgba(52, 146, 108,0.6)');
+  stroke("rgba(80,80,80,0.8)");
+  fill("rgba(52, 146, 108,0.6)");
   for (let i = 0; i * r <= width; i++) {
     for (let j = 28; j * r <= height; j++) {
       let a = random(r / 1.5, r / 0.3);
       let b = random(r / 1.5, r / 0.3);
-      let re = map(i * j, 0, width * height / (r * r), 100, 255);
+      let re = map(i * j, 0, (width * height) / (r * r), 100, 255);
       rect(i * r, j * r, a, b);
     }
   }
@@ -489,7 +452,7 @@ function moveCharacter() {
   let speed = 15;
 
   if (keyIsDown(LEFT_ARROW)) {
-     x -= speed;
+    x -= speed;
     if (x < 0) x = 0; // Prevent going off the left side
   }
   if (keyIsDown(RIGHT_ARROW)) {
@@ -504,34 +467,23 @@ function moveCharacter() {
     y += speed;
     if (y > height - d / 2) y = height - d / 2;
   }
-  
-  
-   yVelocity += gravity; // Apply gravity
+
+  yVelocity += gravity; // Apply gravity
   y += yVelocity; // Update vertical position
 
   let onObstacle = false;
 
   for (let obs of obstacles) {
     // Check if character lands on top of an obstacle
-    if (
-      y + bublee.height/3.2 >= obs.y &&
-      y <= obs.y + 15 &&
-      x + bublee.width > obs.x &&
-      x < obs.x + obs.width
-    ) {
-      y = obs.y - bublee.height/3.2; // Position character on top of the obstacle
+    if (y + bublee.height / 3.2 >= obs.y && y <= obs.y + 15 && x + bublee.width > obs.x && x < obs.x + obs.width) {
+      y = obs.y - bublee.height / 3.2; // Position character on top of the obstacle
       yVelocity = 0; // Stop downward movement
       isJumping = false; // Reset jump
       onObstacle = true;
     }
 
-   // Prevent movement through obstacle sides
-    if (
-      x + bublee.width > obs.x &&
-      x < obs.x + obs.width &&
-      y - bublee.height < obs.y + obs.height &&
-      y > obs.y
-    ) {
+    // Prevent movement through obstacle sides
+    if (x + bublee.width > obs.x && x < obs.x + obs.width && y - bublee.height < obs.y + obs.height && y > obs.y) {
       if (x < obs.x) {
         x = obs.x - bublee.width; // Push character left
       } else if (x > obs.x + obs.width) {
@@ -576,7 +528,6 @@ function checkCollision() {
   }
 }
 
-
 // function checkObstacleCollision(obstacle) {
 //   if (
 //     x + 20 > obstacle.x && x - 20 < obstacle.x + obstacle.width &&
@@ -588,7 +539,7 @@ function checkCollision() {
 
 function loseScreen() {
   noStroke();
-  fill('black');
+  fill("black");
   square(0, 0, 800);
   fill("white");
   textSize(32);
@@ -604,10 +555,7 @@ function Browsing_H_D4() {
 }
 
 function handleObstacleCollision(obstacle) {
-  if (
-    character.x + 20 > obstacle.x && character.x - 20 < obstacle.x + obstacle.width &&
-    character.y + 20 > obstacle.y && character.y - 20 < obstacle.y + obstacle.height
-  ) {
+  if (character.x + 20 > obstacle.x && character.x - 20 < obstacle.x + obstacle.width && character.y + 20 > obstacle.y && character.y - 20 < obstacle.y + obstacle.height) {
     moving = false;
 
     if (keyIsDown(LEFT_ARROW)) x = obstacle.x + obstacle.width + 20;
@@ -623,7 +571,8 @@ function drawDoorway() {
 function checkDoorwayCollision() {
   if (
     // Collision with left or right side of the doorway
-    (x + bublee.width >= doorwayX && x <= doorwayX + 40) &&
+    x + bublee.width >= doorwayX &&
+    x <= doorwayX + 40 &&
     y + bublee.height >= height - 250 && // Character's feet reach the doorway height
     score >= 8 // Ensure the score requirement is met
   ) {
@@ -648,7 +597,7 @@ function drawFlowers() {
     strokeWeight(2);
     stroke("#8B4513");
 
-    let bendDirection = (f.x % 2 === 0) ? -PI / 12 : PI / 12;
+    let bendDirection = f.x % 2 === 0 ? -PI / 12 : PI / 12;
 
     beginShape();
     vertex(0, 0);
@@ -666,13 +615,12 @@ function drawFlowers() {
     ellipse(0, -r, petal_w, petal_h);
     ellipse(0, r, petal_w, petal_h);
 
-    fill('#FFC107');
+    fill("#FFC107");
     circle(0, 0, r);
 
     pop();
   }
 }
-
 
 function restartGame() {
   // Reset player position and velocity
