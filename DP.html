@@ -139,7 +139,7 @@
             </div>
           </div>
           <li class="menu list-none p-0 m-0">
-            <a href="About.html" onclick="window.open('about.html')" class="m3 anchor inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase"> a b o u t </a>
+            <a href="About.html" class="m3 anchor inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase"> a b o u t </a>
           </li>
         </div>
 
@@ -220,7 +220,7 @@
               </ul>
             </li>
             <li class="menu mb3 list-none py-2 mx-4">
-              <a href="About.html" onclick="window.open('about.html')" class="m3 anchor block w-30 py-3 px-2 text-gray-100 text-base uppercase">a b o u t</a>
+              <a href="About.html" class="m3 anchor block w-30 py-3 px-2 text-gray-100 text-base uppercase">a b o u t</a>
             </li>
           </div>
         </div>
@@ -232,27 +232,34 @@
         <!-- <div class="lg:w-1/2 md:w-2/4 w-full block md:block hidden"><script src="https://editor.p5js.org/RudyOfori/full/IYkrd4PGd"></script></div> -->
         <div class="w-full pt-16 md:pb-0 pb-0 lg:pt-0 lg:pb-0">
           <!-- <h1 class="ml-16 lg:text-2xl md:text-2xl text-2xl px-10 md:pl-10 lg:pl-44 lg:ml-2 font-semibold">Project 1</h1> -->
-          <h2 class="ml-20 lg:text-6xl md:text-5xl text-5xl px-5 lg:pl-44 font-semibold lg:ml-2 text-gray-100">Data Portrait/h2>
+          <h2 class="ml-20 lg:text-6xl md:text-5xl text-5xl px-5 lg:pl-44 font-semibold lg:ml-2 text-gray-100">Data Portrait</h2>
           <h1 class="ml-16 lg:text-2xl md:text-2xl text-2xl px-10 md:pl-10 lg:pl-44 lg:ml-2 font-semibold">Description</h1>
           <p class="ml-16 lg:ml-32 py-4 px-10 lg:px-14 lg:pr-24 text-gray-200 pb-16 text-base md:text-lg lg:text-xl">
-            In parameterized design, you are a conductor rather than an individual musician. Instead of producing a single design where you have to draw out all the details step by step, the face
-            generator project uses code to create a set of parameters that generate a variety of baby face designs.
+            I decided to create a data portrait of my browsing habits over seven days. Starting from Saturday, October 12, 2024, I collated data on my browsing history until Friday, October 18, 2024.
+            My data portrait displays details on the days and number of times I browsed, encased in bubbles. Thus, my Data Portrait is an exhibition of a bubble galore, depicting my browsing habits.
           </p>
+
           <h1 class="ml-16 lg:text-2xl md:text-2xl text-2xl px-10 md:pl-10 lg:pl-44 lg:ml-2 font-semibold">Reflection</h1>
           <p class="ml-16 lg:ml-32 py-4 px-10 lg:px-14 lg:pr-24 text-gray-200 pb-16 text-base md:text-lg lg:text-xl">
-            <em>My process</em> <br /><br />I experimented extensively while working on this project. Almost everything I created was a product of numerous trials and errors, but I'm glad I went
-            through them because I believe they have shaped my thinking and design process in many ways. <br /><br /><em>Initial Sketches</em> <br /><br />I began by drawing a diagram of a 2D alien.
-            It looked cute, and I was excited about coding it in P5.js, but I soon found out it was more complicated than I thought. The oblong-like shape of the alien's head was difficult to
-            replicate. I tried using rectangles, quadrilaterals, triangles, circles, and ellipses, but I was unable to successfully create a satisfactory alien head shape. The rounded edges proved
-            difficult to replicate, and working with curve vertices seemed like a whole project of its own, so I decided to go with the next best thing: babies! I created a new sketch of a 2D baby's
-            face and hoped it would prove to be the better option - and it was! I mean, look at that cute face.<br /><br />
-            <em>Coding Process</em> <br /><br />The first thing I did was create the face of the baby. I started with the circular head, then added the eyes, the cheeks, and finally the mouth. I
-            followed by experimenting with the technical components to generate different baby faces. This is where I added the random function, mouseX and mouseY variables, user variables, and the
-            mousePressed syntax. These changed the shape, size, and colors of my baby's face using different interactions.<br /><br /><em>What I discovered using the form I chose</em
-            ><br /><br />Experimenting with different forms for the face generator gave me insight into which shapes were easy to replicate and which were not. The alien face I initially worked with
-            was difficult to form due to complexities with curve vertices. The baby face, however, was easier to create through code. During the animation of the baby face, I also noticed that there
-            was a limit to how much 'randomness' I could apply. The highlight of this particular face was in the circular shapes, and too much distortion tended to detract from that. When distorted
-            too much, the face no longer looked like that of a baby.
+            <em>Reading Instructions For Viewers</em> <br /><br />It's very simple to read my browsing data portrait; you just have to pay attention to the signs. <br /><br />1. First,I put the
+            different day's portraits in a time loop of 60 seconds; this means you have approximately 8 seconds to interact with each day. <br />2. On each day's page, I boldly display the browsing
+            history day, the date, the collated number of times I browsed, and the specific times in bubbles.
+
+            <br />3. If you want to read the specific times, note that all the bubbles have the same time. To read them, you'd have to click on the canvas to iterate through a list of the times.
+            <br />4. Remember to read fast because after 8 seconds, the day will change.
+
+            <em>Design Process</em>
+            <br /><br />Admittedly, the code for this design was the longest I had ever worked on. I started by collecting data of my browsing history and organizing it in a spreadsheet file. Then I
+            put the information of the date and times in different arrays so I could work with them. My idea was to work with bubbles, so I researched different 2D bubble illustrations and tried to
+            include them in different sketches for different days. I loved the outcome after coding about three pages, but the code started to become too long and cumbersome after four sketches and
+            began throwing numerous bugs.<br /><br />
+            <em>Overall Assignment Reflection</em> <br /><br />Overall, I loved working on this Data Portrait assignment. It gave me an opportunity to explore something I had really loved as a child:
+            bubbles. It also taught me a lot about patience because I became quite frustrated at some points due to the bugs it threw.<br /><br /><em>Lessons Learned through Self-Tracking Process</em
+            ><br /><br />I learned quite a number of things through this self-tracking process. First, I was surprised to discover how small the number of times I browsed was. I learned I spent more
+            time on some sites than I did on others, which gave me more insight into what I liked. I also learned a lot about debugging while working on this project.<br /><br /><em
+              >What Was Gained / Lost Through the Process of Data Visualization?</em
+            ><br /><br />I gained a lot of insight from this process, although I felt the amount of time I spent browsing could not be fully captured in this data. That was a slight loss of accuracy
+            in that aspect. Although the times were recorded, the duration spent on sites was lost in the collation of data.
           </p>
         </div>
 

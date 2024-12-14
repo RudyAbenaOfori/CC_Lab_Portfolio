@@ -139,7 +139,7 @@
             </div>
           </div>
           <li class="menu list-none p-0 m-0">
-            <a href="About.html" onclick="window.open('about.html')" class="m3 anchor inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase"> a b o u t </a>
+            <a href="About.html" class="m3 anchor inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase"> a b o u t </a>
           </li>
         </div>
 
@@ -220,7 +220,7 @@
               </ul>
             </li>
             <li class="menu mb3 list-none py-2 mx-4">
-              <a href="About.html" onclick="window.open('about.html')" class="m3 anchor block w-30 py-3 px-2 text-gray-100 text-base uppercase">a b o u t</a>
+              <a href="About.html" class="m3 anchor block w-30 py-3 px-2 text-gray-100 text-base uppercase">a b o u t</a>
             </li>
           </div>
         </div>
@@ -235,24 +235,27 @@
           <h2 class="ml-20 lg:text-6xl md:text-5xl text-5xl px-5 lg:pl-44 font-semibold lg:ml-2 text-gray-100">Experimental Clock</h2>
           <h1 class="ml-16 lg:text-2xl md:text-2xl text-2xl px-10 md:pl-10 lg:pl-44 lg:ml-2 font-semibold">Description</h1>
           <p class="ml-16 lg:ml-32 py-4 px-10 lg:px-14 lg:pr-24 text-gray-200 pb-16 text-base md:text-lg lg:text-xl">
-            In parameterized design, you are a conductor rather than an individual musician. Instead of producing a single design where you have to draw out all the details step by step, the face
-            generator project uses code to create a set of parameters that generate a variety of baby face designs.
+            The experimental clock project is a clock that functions in ways ordinary clocks cannot. It invites you to think of time expansively and alternatively, moving beyond conventional time
+            keeping units. What are other ways in which you can mark the passage of time? What if time itself were turned on its head, driven not by standard time-keeping units, but perhaps
+            subjective, personal, or even irrational organization.
           </p>
           <h1 class="ml-16 lg:text-2xl md:text-2xl text-2xl px-10 md:pl-10 lg:pl-44 lg:ml-2 font-semibold">Reflection</h1>
           <p class="ml-16 lg:ml-32 py-4 px-10 lg:px-14 lg:pr-24 text-gray-200 pb-16 text-base md:text-lg lg:text-xl">
-            <em>My process</em> <br /><br />I experimented extensively while working on this project. Almost everything I created was a product of numerous trials and errors, but I'm glad I went
-            through them because I believe they have shaped my thinking and design process in many ways. <br /><br /><em>Initial Sketches</em> <br /><br />I began by drawing a diagram of a 2D alien.
-            It looked cute, and I was excited about coding it in P5.js, but I soon found out it was more complicated than I thought. The oblong-like shape of the alien's head was difficult to
-            replicate. I tried using rectangles, quadrilaterals, triangles, circles, and ellipses, but I was unable to successfully create a satisfactory alien head shape. The rounded edges proved
-            difficult to replicate, and working with curve vertices seemed like a whole project of its own, so I decided to go with the next best thing: babies! I created a new sketch of a 2D baby's
-            face and hoped it would prove to be the better option - and it was! I mean, look at that cute face.<br /><br />
-            <em>Coding Process</em> <br /><br />The first thing I did was create the face of the baby. I started with the circular head, then added the eyes, the cheeks, and finally the mouth. I
-            followed by experimenting with the technical components to generate different baby faces. This is where I added the random function, mouseX and mouseY variables, user variables, and the
-            mousePressed syntax. These changed the shape, size, and colors of my baby's face using different interactions.<br /><br /><em>What I discovered using the form I chose</em
-            ><br /><br />Experimenting with different forms for the face generator gave me insight into which shapes were easy to replicate and which were not. The alien face I initially worked with
-            was difficult to form due to complexities with curve vertices. The baby face, however, was easier to create through code. During the animation of the baby face, I also noticed that there
-            was a limit to how much 'randomness' I could apply. The highlight of this particular face was in the circular shapes, and too much distortion tended to detract from that. When distorted
-            too much, the face no longer looked like that of a baby.
+            <em>Brainstorming</em> <br /><br />My ideas for this assignment were largely inspired by movies I had previously watched. I considered three concepts: "The Wheels of Our Time," "The Sands
+            of Our Time," and "The Scales of Our Time." Each idea explored how time could be depicted visually. For "The Wheel of Time," I envisioned creating a wheel in P5.js that would rotate based
+            on hours, minutes, or seconds. "The Scales of Time" concept involved measuring the progression or digression of time using a scale mapped to P5.js time functions. Ultimately, I chose "The
+            Sands of Time" due to its practicality and my fondness for Arabian folklore featuring this concept. <br /><br /><em>The Idea</em> <br /><br />"The Sands of Time" concept aims to create a
+            digital hourglass that measures time progression using P5.js mapping functions. This hourglass would depict the flow of time in seconds, minutes, and hours through a 2D animation
+            simulating sand movement.<br /><br />
+            <em>The Process</em> <br /><br />I began by experimenting with the sand motion in the hourglass, creating two circles whose radii were mapped to the seconds function in P5.js. One circle
+            decreases in size over time, while the other increases, simulating sand flowing from one chamber to another. I then developed an animation to represent sand particles moving between these
+            circles, creating the illusion of sand flowing through an hourglass.<br /><br />Once the basic motion was established, I focused on improving the aesthetics to make it resemble a 2D
+            hourglass animation. My final challenge was implementing a feature to toggle between displaying time in seconds, minutes, and hours. I struggled with creating an object to trigger this
+            function change, which is an area I plan to explore further.<br /><br /><em>Findings and Discovery</em><br /><br />This digital hourglass offers a novel approach to timekeeping, as it can
+            segment time into hours, minutes, and seconds, unlike traditional hourglasses that typically measure only hours. Through this assignment, I gained valuable insights into P5.js
+            functionality and how to customize it for specific needs. However, I also encountered questions I'd like to explore further, such as creating a button without using the built-in
+            'createButton' P5.js function.<br /><br />This project has sparked my curiosity to delve deeper into P5.js capabilities and explore more creative ways to visualize time and interact with
+            digital animations.
           </p>
         </div>
 
