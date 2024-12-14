@@ -55,13 +55,13 @@ let bubbleColors = ["rgba(120, 241, 243, 0.2)", "rgba(181, 252, 243,0.6)", "rgba
 
 function preload() {
   // Load images for both scenes
-  bg_img = loadImage("/assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_f2409b17-de24-493d-bf50-cddc7cb85538_0 1.png");
-  bg_img2 = loadImage("/assets/u3366585754_create_the_image_of_a_magical_whimsical_field_fil_75aae9d7-e6a5-4ae1-b030-39682b6f0d86_1.png");
-  instructor_img = loadImage("/assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_97d6bc18-c326-41b6-97d3-1696e0a6db61_0 1 (1).png");
-  pixeloid = loadFont("/assets/PixeloidMono.ttf");
-  bg_img3 = loadImage("/assets/u3366585754_Create_a_vibrant_2D_illustration_of_a_bright_sunn_0232d763-df5b-4961-8bf5-ec6f3e69d358_0.png");
-  coin_image = loadImage("/assets/ezgif.com-animated-gif-maker (2).gif");
-  char_img = loadImage("/assets/Ahaa.png");
+  bg_img = loadImage("./assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_f2409b17-de24-493d-bf50-cddc7cb85538_0 1.png");
+  bg_img2 = loadImage("./assets/u3366585754_create_the_image_of_a_magical_whimsical_field_fil_75aae9d7-e6a5-4ae1-b030-39682b6f0d86_1.png");
+  instructor_img = loadImage("./assets/u3366585754_Setting_A_vibrant_whimsical_world_overflowing_wit_97d6bc18-c326-41b6-97d3-1696e0a6db61_0 1 (1).png");
+  pixeloid = loadFont("./assets/PixeloidMono.ttf");
+  bg_img3 = loadImage("./assets/u3366585754_Create_a_vibrant_2D_illustration_of_a_bright_sunn_0232d763-df5b-4961-8bf5-ec6f3e69d358_0.png");
+  coin_image = loadImage("./assets/ezgif.com-animated-gif-maker (2).gif");
+  char_img = loadImage("./assets/Ahaa.png");
 }
 
 class bubbles {
