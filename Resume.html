@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudy's Portfolio</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/r_o_logo.svg" />
+    <link rel="stylesheet" href="css/my-web-style.css" />
+    <link rel="stylesheet" type="text/css" href="css/poty.css" />
+    <link rel="stylesheet" type="text/css" href="css/ResumeStyle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="fixed inset-x-0 lg:px-8 transition duration-500 z-50 nav">
+      <div class="flex justify-between border-b-2 border-gray-200 md:border-none">
+        <!-- left side -->
+        <div class="flex items-center md:my-5 m-5">
+          <a href="/#home"><img class="w-16" src="images/r_o_logo.svg" alt="" /></a>
+        </div>
+        <!--right side-->
+        <div class="move hidden lg:flex justify-center items-center">
+          <div class="menu list-none py-8 m-0">
+            <a href="/#home" onclick="scrollToElement('.home')" class="m1 anchor act inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase">H o m e</a>
+          </div>
+          <div class="menu list-none py-8 m-0">
+            <a onclick=" scrollToElement('.partners')" class="m2 anchor inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase">P r o j e c t s</a>
+            <!--dropdown menu-->
+            <div class="w-full flex justify-center">
+              <div class="ani-menu list-none m-0 opacity-0 absolute px-14 grid grid-cols-3 gap-0 justify-items-center">
+                <!-- <ul class=" ani-menu list-none pl-12 py-10 m-0 opacity-0 absolute"> -->
+
+                <div class="grid-cols-1 gap-0 w-48">
+                  <h2 class="mt-12 mb-9"><a class="drop-menu text-base uppercase">V I S U A L &nbsp; P 5 . J S</a></h2>
+                  <li class="ani-li list-none h-8 mb-3">
+                    <a class="drop-menu font-medium text-sm" href="/plantrite.html">
+                      <div class="flex justify-start items-center">
+                        <span class="arrow inline-block mr-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </span>
+                        <span>L o s t &nbsp; & &nbsp; F o u n d</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="ani-li list-none h-8 mb-3">
+                    <a class="drop-menu font-medium text-sm" href="lendit_casestudy.html">
+                      <div class="flex justify-start items-center">
+                        <span class="arrow inline-block mr-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </span>
+                        <span>F a c e &nbsp; G e n e r a t o r</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="ani-li list-none h-8 mb-3">
+                    <a class="drop-menu font-medium text-sm" href="/cropchain_casestudy.html">
+                      <div class="flex justify-start items-center">
+                        <span class="arrow inline-block mr-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </span>
+                        <span>E x q u i s i t e &nbsp; C o r p s e</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="ani-li list-none h-8 mb-3">
+                    <a class="drop-menu font-medium text-sm" href="/agromart_casestudy.html">
+                      <div class="flex justify-start items-center">
+                        <span class="arrow inline-block mr-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </span>
+                        <span>O p t i c a l &nbsp; i l l u s i o n</span>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div class="grid-cols-1 gap-0 w-48">
+                  <h2 class="mt-12 mb-9"><a class="drop-menu text-base uppercase">F U N C T I O N A L &nbsp; P 5 . J S</a></h2>
+                  <li class="ani-li list-none h-8 mb-3">
+                    <a class="drop-menu font-medium text-sm" href="/poster.html">
+                      <div class="flex justify-start items-center">
+                        <span class="arrow inline-block mr-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </span>
+                        <span>D a t a &nbsp; P o r t r a i t</span>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="ani-li list-none h-8">
+                    <a class="drop-menu font-medium text-sm"><span class="arrow inline-block mr-4 relative"> </span></a>
+                  </li>
+                </div>
+
+                <div class="grid-cols-1 gap-0 w-48">
+                  <h2 class="mt-12 mb-9"><a class="drop-menu text-base uppercase">G A M E &nbsp; D E S I G N</a></h2>
+                  <li class="ani-li list-none h-8 mb-3">
+                    <a class="drop-menu font-medium text-sm" href="/agrocenta.html">
+                      <div class="flex justify-start items-center">
+                        <span class="arrow inline-block mr-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </span>
+                        <span>A u t o b i o g r a p h i c a l &nbsp; G a m e</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="ani-li list-none h-8">
+                    <a class="drop-menu font-medium text-sm" href="/branding.html"><span class="arrow inline-block mr-4 relative"> </span></a>
+                  </li>
+                  <li class="ani-li list-none h-8">
+                    <a class="drop-menu font-medium text-sm" href="/branding.html"><span class="arrow inline-block mr-4 relative"> </span></a>
+                  </li>
+                  <li class="ani-li list-none h-8">
+                    <a class="drop-menu font-medium text-sm" href="/branding.html"><span class="arrow inline-block mr-4 relative"> </span></a>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <li class="menu list-none p-0 m-0">
+            <a href="/#home" onclick="scrollToElement('.contact')" class="m3 anchor inline-block py-4 px-2 mx-10 text-gray-100 text-base uppercase"> a b o u t </a>
+          </li>
+        </div>
+
+        <!--mobile button-->
+        <div class="lg:hidden flex items-center px-5">
+          <div class="mobile-menu-button toggle" onclick="menuToggle();">
+            <img class="w-full hidden" src="images/exit_button.svg" />
+          </div>
+        </div>
+      </div>
+
+      <!--mobile view-->
+      <div class="mobile-menu hidden lg:hidden text-indigo-800 hover:text-indigo-500">
+        <div class="flex">
+          <div class="move mobile-move w-full border-b-2 border-gray-200 md:border-none">
+            <li class="menu mb1 list-none py-2 mx-4"><a href="/#home" onclick="scrollToElement('.home')" class="m1 anchor act w-16 block py-3 px-2 text-gray-100 text-base uppercase">H o m e</a></li>
+            <li class="menu mb2 relative list-none py-2 m-0" id="li2">
+              <!-- <a href="/#partners" onclick=" scrollToElement('.partners')" class="m2 anchor w-32 block py-3 px-2 text-gray-900 text-base ml-4 uppercase">P o r t f o l i o</a> -->
+              <a class="m2 anchor w-30 block py-3 px-2 text-gray-100 text-base ml-4 uppercase">P r o j e c t s</a>
+              <!--dropdown menu-->
+              <ul class="ani-menu-mobile w-full py-2 pb-2 mobile-dropmenu list-none m-0 opacity-0 absolute overflow-hidden overflow-y-auto">
+                <!-- <ul class=" ani-menu list-none pl-12 py-10 m-0 opacity-0 absolute"> -->
+                <h2 class="mobile-li py-4 pl-6"><a class="drop-menu text-base uppercase">V I S U A L &nbsp; P 5 . J S</a></h2>
+
+                <li class="mobile-li list-none pl-8 mx-4 py-2 transition duration-800 ease-out">
+                  <a class="drop-menu font-medium text-sm" href="/lendit_casestudy.html"
+                    ><span class="arrow inline-block mr-4 relative"
+                      ><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span
+                    >L o s t &nbsp; & &nbsp; F o u n d</a
+                  >
+                </li>
+                <li class="mobile-li list-none pl-8 mx-4 py-2 transition duration-800 ease-out">
+                  <a class="drop-menu font-medium text-sm" href="/lendit_casestudy.html"
+                    ><span class="arrow inline-block mr-4 relative"
+                      ><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span
+                    >F a c e &nbsp; G e n e r a t o r</a
+                  >
+                </li>
+                <li class="mobile-li list-none pl-8 mx-4 py-2 transition duration-800 ease-out">
+                  <a class="drop-menu font-medium text-sm" href="/cropchain_casestudy.html"
+                    ><span class="arrow inline-block mr-4 relative"
+                      ><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span
+                    >E x q u i s i t e &nbsp; C o r p s e</a
+                  >
+                </li>
+                <li class="mobile-li list-none pl-8 mx-4 py-2 transition duration-800 ease-out">
+                  <a class="drop-menu font-medium text-sm" href="/agromart_casestudy.html"
+                    ><span class="arrow inline-block mr-4 relative"
+                      ><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span
+                    >O p t i c a l &nbsp; i l l u s i o n</a
+                  >
+                </li>
+                <h2 class="mobile-li py-4 pl-6"><a class="drop-menu text-base uppercase">F U N C T I O N A L &nbsp; P 5 . J S</a></h2>
+                <li class="mobile-li list-none pl-8 mx-4 py-2 transition duration-800 ease-out">
+                  <a class="drop-menu font-medium text-sm" href="/poster.html"
+                    ><span class="arrow inline-block mr-4 relative"
+                      ><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span
+                    >D a t a &nbsp; P o r t r a i t</a
+                  >
+                </li>
+
+                <h2 class="mobile-li py-4 pl-6"><a class="drop-menu text-base uppercase">G A M E &nbsp; D E S I G N</a></h2>
+                <li class="mobile-li list-none pl-8 mx-4 py-2 transition duration-800 border-b-0 ease-out">
+                  <a class="drop-menu font-medium text-sm" href="/agrocenta.html"
+                    ><span class="arrow inline-block mr-4 relative"
+                      ><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></span
+                    >A u t o b i o g r a p h i c a l &nbsp; G a m e</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu mb3 list-none py-2 mx-4">
+              <a href="/#home" onclick="scrollToElement('.contact')" class="m3 anchor block w-30 py-3 px-2 text-gray-100 text-base uppercase">a b o u t</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <body>
+        <div class="container">
+          <h1>My Resume</h1>
+          <div class="pdf-viewer">
+            <iframe src="UIUX_new_school_CV2024.pdf" title="Resume"></iframe>
+          </div>
+    
+          <a href="UIUX_new_school_CV2024.pdf" class="download-btn" download>Download Resume</a>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
