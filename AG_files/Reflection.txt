@@ -1,0 +1,34 @@
+p5 sketch: https://editor.p5js.org/RudyOfori/sketches/gS0WNtZbg
+Your name: Rudy Ofori
+
+Game Proposal: Bublee's World
+Bublee's World is a game inspired by my personal journey exploring a new world: New York City. Through Bublee's perspective, you'll navigate fantastical yet familiar elements of the city, capturing the wonder and challenges of my experience moving to New York to study. This world isn't the bustling urban center we know—instead, it blends reality with whimsical, dreamlike elements.
+
+Rules:
+Succeeding in Bublee's World and unlocking its unique realms involves following these key rules:
+
+1. Don't Get Hit: Beautiful, falling time capsules—or "bubbles"—descend at varying speeds throughout the game. Though mesmerizing, if a bubble touches you, it's Game Over.
+Note: The time capsules represent the pressure of time restraints, especially when dealing with important deadlines for assignments and projects as a student.
+
+2. Collect Skill Coins: As you explore, gather skill coins to unlock new abilities and progress through stages. Each coin prepares you with skills needed for the next level. Every level has a 'skill coins required' number that you must reach before accessing the purple door.
+Note: Skill coins represent the abundance of skills and knowledge available to me while studying at Parsons in New York.
+
+3. Navigate Obstacles: While obstacles won't end your game, they can slow down your progress unnecessarily.
+
+4. Find the Exit: Run for the purple door when it appears. You can only reach it after collecting the required number of coins.
+
+5. Stay Alive: Your remaining lives indicate how much time you have left, but they decrease when bubbles hit you. Be careful of bubble ambushes - avoid them when you can!
+
+Controls:
+
+Move: Use the left and right arrow keys to navigate Bublee
+Jump: Press the up-arrow key to avoid obstacles
+
+Reflections:
+The current version features three scenes - two instructional and one gameplay level. While I initially planned for multiple levels, creating just one level with all its features and functions kept me busy for three weeks straight.
+
+Process:
+I began by developing the proposal and storyline. For the first time, I explored Midjourney and other image-generating software to create Bublee - a black 27-year-old woman with long curly hair, big beautiful eyes, and bright African colors. I also generated various scene environments for potential levels. While this creative process excited me, the coding proved challenging.
+
+Coding:
+Starting with the whiteboxing, I encountered numerous challenges in implementing my vision. Each solved problem revealed new ones. I spent countless hours debugging, exploring tutorials, and experimenting with Stack Overflow solutions until I found what worked. I often turned to Google for help and posted my code online seeking debugging advice. This final version emerged after many sleepless nights, squeezed between other assignments and projects. It's the longest code I've written in P5.js so far. Though challenging, I'm proud of the outcome, even while recognizing room for improvement.

@@ -1,0 +1,96 @@
+Name: Rudy Ofori
+Assignment: Data Portrait
+
+Data Portrait Description
+I decided to create a data portrait of my browsing habits over seven days. Starting from Saturday, October 12, 2024, I collated data on my browsing history until Friday, October 18, 2024. My data portrait displays details on the days and number of times I browsed, encased in bubbles. Thus, my Data Portrait is an exhibition of a bubble galore, depicting my browsing habits.
+
+
+Reading Instructions For Viewers
+It's very simple to read my browsing data portrait; you just have to pay attention to the signs.
+
+1. First,I put the different day's portraits in a time loop of 60 seconds; this means you have approximately 8 seconds to interact with each day.
+
+2. On each day's page, I boldly display the browsing history day, the date, the collated number of times I browsed, and the specific times in bubbles.
+
+3. If you want to read the specific times, note that all the bubbles have the same time. To read them, you'd have to click on the canvas to iterate through a list of the times.
+
+4. Remember to read fast because after 8 seconds, the day will change.
+
+
+Design Process
+Admittedly, the code for this design was the longest I had ever worked on. I started by collecting data of my browsing history and organizing it in a spreadsheet file. Then I put the information of the date and times in different arrays so I could work with them. My idea was to work with bubbles, so I researched different 2D bubble illustrations and tried to include them in different sketches for different days. I loved the outcome after coding about three pages, but the code started to become too long and cumbersome after four sketches and began throwing numerous bugs.
+
+Numbered List:
+Date	            Time
+Sat, Oct 12, 2024	2:18 PM
+Sat, Oct 12, 2024	2:21 PM
+Sat, Oct 12, 2024	2:44 PM
+Sat, Oct 12, 2024	2:49 PM
+Sat, Oct 12, 2024	2:55 PM
+Sat, Oct 12, 2024	2:55 PM
+Sat, Oct 12, 2024	3:01 PM
+Sat, Oct 12, 2024	3:54 PM
+Sat, Oct 12, 2024	4:17 PM
+Sat, Oct 12, 2024	4:17 PM
+Sat, Oct 12, 2024	10:49 PM
+Sun, Oct 13, 2024	8:32 PM
+Sun, Oct 13, 2024	8:33 PM
+Sun, Oct 13, 2024	8:34 PM
+Sun, Oct 13, 2024	8:36 PM
+Mon, Oct 14, 2024	9:21 AM
+Mon, Oct 14, 2024	9:34 AM
+Mon, Oct 14, 2024	2:14 PM
+Mon, Oct 14, 2024	2:23 PM
+Mon, Oct 14, 2024	2:26 PM
+Mon, Oct 14, 2024	2:34 PM
+Mon, Oct 14, 2024	3:41 PM
+Mon, Oct 14, 2024	5:36 PM
+Mon, Oct 14, 2024	5:36 PM
+Mon, Oct 14, 2024	5:42 PM
+Mon, Oct 14, 2024	6:07 PM
+Mon, Oct 14, 2024	6:07 PM
+Mon, Oct 14, 2024	6:08 PM
+Mon, Oct 14, 2024	6:08 PM
+Tue, Oct 15, 2024	9:43 AM
+Tue, Oct 15, 2024	10:03 AM
+Tue, Oct 15, 2024	10:08 AM
+Tue, Oct 15, 2024	10:09 AM
+Tue, Oct 15, 2024	10:10 AM
+Tue, Oct 15, 2024	10:20 AM
+Tue, Oct 15, 2024	12:22 PM
+Tue, Oct 15, 2024	12:22 PM
+Tue, Oct 15, 2024	1:49 PM
+Tue, Oct 15, 2024	3:07 PM
+Tue, Oct 15, 2024	3:08 PM
+Tue, Oct 15, 2024	3:08 PM
+Wed, Oct 16, 2024	3:18 AM
+Wed, Oct 16, 2024	3:19 AM
+Wed, Oct 16, 2024	3:25 AM
+Wed, Oct 16, 2024	3:26 AM
+Wed, Oct 16, 2024	3:27 AM
+Wed, Oct 16, 2024	3:46 AM
+Wed, Oct 16, 2024	6:08 PM
+Wed, Oct 16, 2024	6:09 PM
+Wed, Oct 16, 2024	6:16 PM
+Thu, Oct 17, 2024	9:40 AM
+Thu, Oct 17, 2024	10:02 AM
+Thu, Oct 17, 2024	10:14 AM
+Thu, Oct 17, 2024	10:24 AM
+Fri, Oct 18, 2024	12:48 AM
+Fri, Oct 18, 2024	12:50 AM
+Fri, Oct 18, 2024	12:51 AM
+Fri, Oct 18, 2024	12:51 AM
+Fri, Oct 18, 2024	3:54 AM
+Fri, Oct 18, 2024	3:56 AM
+
+
+Overall Assignment Reflection
+Overall, I loved working on this Data Portrait assignment. It gave me an opportunity to explore something I had really loved as a child: bubbles. It also taught me a lot about patience because I became quite frustrated at some points due to the bugs it threw.
+
+
+Lessons Learned through Self-Tracking Process
+I learned quite a number of things through this self-tracking process. First, I was surprised to discover how small the number of times I browsed was. I learned I spent more time on some sites than I did on others, which gave me more insight into what I liked. I also learned a lot about debugging while working on this project.
+
+
+What Was Gained / Lost Through the Process of Data Visualization?
+I gained a lot of insight from this process, although I felt the amount of time I spent browsing could not be fully captured in this data. That was a slight loss of accuracy in that aspect. Although the times were recorded, the duration spent on sites was lost in the collation of data.
